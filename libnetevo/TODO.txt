@@ -1,0 +1,26 @@
+=================================
+libnetevo v2 -- Outstanding Tasks
+=================================
+
+general
+-------
+ * Add Doxygen comments to all classes and methods
+ * Put together development project for Mac OS X (Xcode)
+ * Put together development project for Windows (Visual Studio)
+
+evolve_sa
+---------
+ * OpenMP
+
+performance_lib
+---------------
+ * Synchronisation (global/local/bounded)
+ * Consensus
+ * Oscillator
+
+dynamics_lib
+------------
+ * Oscillators (chaotic/state/phase) + diffusive coupling
+ * ODE type GRNs
+ * Boolean type GRNs 
+ * Epidemics (SIR/SIS)

@@ -1,0 +1,72 @@
+/*===========================================================================
+ NetEvo Foundation Library
+ Copyright (C) 2009, 2010, 2011 Thomas E. Gorochowski <tgorochowski@me.com>
+ Bristol Centre for Complexity Sciences, University of Bristol, Bristol, UK
+ ---------------------------------------------------------------------------- 
+ NetEvo is a computing framework designed to allow researchers to investigate 
+ evolutionary aspects of dynamical complex networks. By providing tools to 
+ easily integrate each of these factors in a coherent way, it is hoped a 
+ greater understanding can be gained of key attributes and features displayed 
+ by complex systems.
+ 
+ NetEvo is open-source software released under the Open Source Initiative 
+ (OSI) approved Non-Profit Open Software License ("Non-Profit OSL") 3.0. 
+ Detailed information about this licence can be found in the COPYING file 
+ included as part of the source distribution.
+ 
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ ============================================================================*/
+/** 
+ * \mainpage NetEvo Foundation Library
+ *
+ * \author <a href="mailto:tgorochowski@me.com">Thomas E. Gorochowski</a>
+ * (Bristol Centre for Complexity Sciences, University of Bristol, UK)
+ *
+ * \section Overview
+ * NetEvo is a computing framework designed to allow researchers to investigate 
+ * evolutionary aspects of dynamical complex networks. By providing tools to 
+ * easily integrate network topology, system dynamics and evolutionary processes
+ * in a coherent way, it is hoped a greater understanding can be gained of key 
+ * attributes and features displayed by complex systems. This document provides 
+ * developer documentation of all objects necessary to use NetEvo.
+ *
+ * To find out further information, report bugs or contribute to NetEvo, see the project website at
+ * <a href="http://www.netevo.org">http://www.netevo.org</a>.
+ *
+ * \section Licence
+ * NetEvo is open-source software released under the Open Source Initiative (OSI) approved 
+ * Non-Profit Open Software License ("Non-Profit OSL") 3.0. Detailed information about this 
+ * licence can be found in the COPYING file included as part of the source distribution.
+ */
+
+
+
+/**\defgroup ne_general General Functions and Structures
+ * General Stuff
+ */
+ 
+ 
+/**\defgroup ne_sys The NetEvo System (ne_sys)
+ * Defines the NetEvo system data type and associated functions.
+ * This is used throughout the library to hold all the necessary information (topology and dynamics)
+ * of a graph. We use fixed numbers of parameters for the dynamics and general information about
+ * nodes and edges. These can be altered by updating the source if memory becomes an issue.
+ */
+ 
+/**\defgroup ne_dynamics Network Dynamics
+ * Modules related to network evolution.
+ */
+
+/**\defgroup ne_evolution Network Evolution
+ * Modules related to network evolution.
+ */
+
+/**\defgroup ne_lib Built-in Function Libraries
+ * Libraries of compatible built-in functions to use with NetEvo.
+ */
+ 
+ 
+
+

@@ -1,0 +1,38 @@
+
+
+For other news related to NetEvo see the https://sourceforge.net/news/?group_id=271751
+
+
+NetEvo 2.0 (13th Jan 2012)
+================
+A complete rewrite of the library using C++ to enable easier development. The underlying
+datatype is now based upon LEMON and alternative numerical integration and analysis
+libraries have been chosen due to their flexibility and performance. Hooks have
+also been included for future visualisation libraries, specifically Cinder. There are
+some remaining performance issues around copying of systems which is slowing down
+simulations that involve evolution of a network. These will be fixed in a later release.
+
+
+NetEvo 1.0 (1 Jan 2011)
+========================
+The first full release containing several new areas of functionality. Dynamics can now
+take the form of continuous and discrete time mappings. Further examples and developer 
+documentation is included.
+
+
+NetEvo 0.2 (31 May 2010)
+========================
+Major update to provide missing functionality from the initial 0.1 release. This
+includes the ability to have node and edge attributes, and an updated form to
+node and edge dynamics to allow for a wider range of dynamical networks to be
+modelled. The main ne_sys interface to fairly stable now and users are recommended
+to only use this when manipulating system structures. This release also has a 
+fully working autoconf/make compilation routine which will simplify distribution.
+
+
+NetEvo 0.1 (15 Aug 2009)
+========================
+This is the first beta release of NetEvo allowing for the evolution of
+dynamical networks. The toolkit is currently under heavy development so expect
+changes to interfaces until the release of version 1.0. Even so this should
+provide some use to the networks community.

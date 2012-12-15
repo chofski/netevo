@@ -1,0 +1,76 @@
+
+NetEvo - Complex Dynamical Network Evolution
+============================================
+
+NetEvo is a computing framework designed to allow researchers to investigate 
+evolutionary aspects of dynamical complex networks. By providing tools to 
+easily integrate each of these factors in a coherent way, it is hoped a 
+greater understanding can be gained of key attributes and features displayed 
+by complex systems.
+
+NetEvo is free software, you can redistribute it and/or modify it under
+the terms of the Non-Profit Open Software License ("Non-Profit OSL") 3.0. 
+See the COPYING file for further details.
+
+Availability
+============
+
+The current stable version of NetEvo is always available from:
+
+https://sourceforge.net/projects/netevo/files/
+
+Installation
+============
+
+NetEvo follows the standard GNU installation procedure. Please consult
+the INSTALL file in this distribution for more detailed instructions.
+We also provide projects for Windows (Visual Studio) and Mac OS X 
+(Xcode) that may be more suitable for those unfamiliar with compiling
+software from source.
+
+For information about specific platforms and compilers see the
+"Compilation Notes" section in the INSTALL file.
+
+----------------------------------------------------------------------
+NOTE: If you have boost, Eigen, igraph, odeint-v2 or other libraries 
+      in a custom path you may need to set a custom include path. You  
+      can do this using:
+	  
+	    export CXXFLAGS="-I/HEADER_PATH"
+	    export LD_LIBRARY_PATH=/LIB_PATH:$LD_LIBRARY_PATH
+	    
+	    and replacing HEADER_PATH and LIB_PATH as required. This should
+	    be set before running ./configure
+----------------------------------------------------------------------
+
+More information about NetEvo
+=============================
+
+The project homepage is http://netevo.sourceforge.net/
+
+See the NEWS file for recent changes to the library.
+
+Reporting Bugs
+==============
+
+A list of known bugs can be found in the BUGS file.  Details of
+compilation problems can be found in the INSTALL file.
+
+If you find a bug which is not listed in these files please report it
+to the Bug Tracker which can be found at:
+
+https://sourceforge.net/projects/netevo/support
+
+All bug reports should include:
+
+       The version number of NetEvo, and where you obtained it.
+       The hardware and operating system
+       The compiler used, including version number and compilation options
+       A description of the bug behaviour
+       A short program which reproducibly exercises the bug
+
+Contributing to NetEvo
+======================
+
+If you are interested in participating in NetEvo development, please see
+the webpage at http://sourceforge.net/projects/netevo

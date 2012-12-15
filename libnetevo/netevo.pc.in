@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: NetEvo
+Description: NetEvo Foundation Library.
+Version: @VERSION@
+Libs: -L${libdir} -l@GENERIC_LIBRARY_NAME@ -lemon
+CXXflags: -I${includedir}/@GENERIC_LIBRARY_NAME@
